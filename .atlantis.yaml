@@ -12,7 +12,10 @@ workflows:
   use-prod-vars:
     plan:
       steps:
-        - run: terraform plan -var-file="prod.tfvars"
+        - init
+        - plan:
+            extra_args: ["-var-file=prod.tfvars"]
     apply:
       steps:
-        - run: terraform apply -var-file="prod.tfvars"
+        - apply:
+            extra_args: ["-var-file=prod.tfvars"]
