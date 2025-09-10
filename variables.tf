@@ -1,4 +1,6 @@
 variable "pem-key-file" {
-    type = string 
+    type = string
+    default = "FEB-2025"
 }
+
 
