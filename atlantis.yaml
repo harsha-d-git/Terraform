@@ -1,4 +1,3 @@
-
 version: 3 # Available since v0.1.0
 automerge: true # Available since v0.15.0
 autodiscover: # Available since v0.18.0
