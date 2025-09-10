@@ -1,7 +1,7 @@
 version: 3
 projects:
   - dir: .
-    workflow: use-prod-vars
+    workflow: 
     autoplan:
       enabled: true
       when_modified:
