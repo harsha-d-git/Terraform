@@ -14,3 +14,5 @@ terraform {
     key    = "aws/terraform.tfstate"
     region = "ap-south-1"
   }
+}
+
