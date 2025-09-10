@@ -4,6 +4,7 @@ resource "aws_instance" "my-first-ec2-01" {
     key_name = var.pem-key-file
   
     tags = {
-      Name = "terraform-111"
+      Name = "terraform-prod"
     }
 }
+
