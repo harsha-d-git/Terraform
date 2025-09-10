@@ -16,3 +16,8 @@ workflows:
     apply:
       steps:
         - run: terraform apply -var-file="prod.tfvars"
+
+repos:
+  - id: github.com/harsha-d-git/Terraform
+    allowed_overrides:
+      - workflow
