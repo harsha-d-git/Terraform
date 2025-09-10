@@ -7,12 +7,3 @@ resource "aws_instance" "my-first-ec2-01" {
       Name = "terraform-111"
     }
 }
-
-terraform {
-  backend "s3" {
-    bucket = "terraform-aws-cicd-1997"
-    key    = "aws/terraform.tfstate"
-    region = "ap-south-1"
-  }
-}
-
